@@ -1,7 +1,7 @@
 package main
 
 import (
-	public "../../Public"
+	public "./GoLangLinkDLL/Public"
 	"fmt"
 )
 

@@ -2,7 +2,7 @@ package main
 
 import "C"
 import (
-	public "../../Public"
+	public "./GoLangLinkDLL/Public"
 	"fmt"
 	"unsafe"
 )
@@ -12,8 +12,8 @@ func INITGODLL(Map uintptr, LoadFuncName uintptr) uintptr {
 	INITS()
 	TmpMap := PtrMap(Map)
 	FuncName := uintptrToString(LoadFuncName)
-	if _,ok:=ConfigMap[FuncName];ok{
-		TmpRes:=ConfigMap[FuncName](TmpMap)
+	if _, ok := ConfigMap[FuncName]; ok {
+		TmpRes := ConfigMap[FuncName](TmpMap)
 		fmt.Scanln(TmpRes)
 		return NewRes(&TmpRes)
 	}

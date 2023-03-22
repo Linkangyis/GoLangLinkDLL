@@ -1,9 +1,10 @@
 package main
 
 import (
-	public "../../Public"
+	public "./GoLangLinkDLL/Public"
 )
-var ConfigMap = make(map[string]func(map[int]string)public.TypeDLL)
+
+var ConfigMap = make(map[string]func(map[int]string) public.TypeDLL)
 
 func INITS() {
 	/* v 请在这里配置函数*/
