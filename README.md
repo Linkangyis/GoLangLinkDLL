@@ -1,0 +1,2 @@
+# GoLangLinkDLL
+Windows使用go引入用go开发的DLL
