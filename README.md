@@ -3,6 +3,9 @@
 
 ## 开发背景
 <h5>在原本的Go标准库中，是不支持之间使用go链接用go开发的DLL这在我们开发中带来了许多不便</h5>
+<h5>此"框架/插件"致力于解决以下两个issues的问题</h5>
+1.https://github.com/golang/go/issues/19282<br>
+2.https://github.com/golang/go/issues/22192
 
 ## 食用方法
 <h5>可以直接测试/Demo中的实例DLL</h5>
