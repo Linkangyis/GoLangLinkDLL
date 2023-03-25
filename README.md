@@ -1,5 +1,5 @@
 <h1>GoLangLinkDLL</h1>
-<h5>简介：Windows使用go引入用go开发的DLL</h5>
+<h5>简介：在Windows使用go链接用go开发的DLL</h5>
 
 ## 开发背景
 <h5>在原本的Go标准库中，是不支持之间使用go链接用go开发的DLL这在我们开发中带来了许多不便</h5>
