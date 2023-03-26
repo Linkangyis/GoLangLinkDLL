@@ -8,7 +8,7 @@
 2.https://github.com/golang/go/issues/22192
 
 ## 食用方法
-<h5>可以直接测试/Demo中的实例DLL</h5>
+<h5>可以直接测试/Demo中的实例DLL(./test.dll就来自/Demo中的实例)</h5>
 
 1. 编译DLL(需要GCC以及开启CGO) 请注意public包，包位置自行修改
 ```shell
