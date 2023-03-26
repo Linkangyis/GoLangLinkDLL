@@ -1,7 +1,7 @@
 package main
 
 import (
-	public "./GoLangLinkDLL/Public"
+	public "TestDLL/Public"
 )
 
 var ConfigMap = make(map[string]func(map[int]string) public.TypeDLL)
