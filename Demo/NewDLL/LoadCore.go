@@ -2,7 +2,7 @@ package main
 
 import "C"
 import (
-	public "./GoLangLinkDLL/Public"
+	public "TestDLL/Public"
 	"fmt"
 	"unsafe"
 )
